@@ -1,11 +1,5 @@
-import * as flsFunctions from "./modules/functions.js";
+"use strict"
 
-flsFunctions.isWebp();
-
-/*
-import Swiper, { Navigation, Pagination } from 'swiper';
-const swiper = new Swiper();
-*/
 const reviewsSwiper = document.querySelector('.swiper-reviews');
 
 if (reviewsSwiper) {
